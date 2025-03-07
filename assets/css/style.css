@@ -7,4 +7,69 @@ html {
 /* Khoi phuc lai co chu mac dinh theo rem */
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* ---------------common---------------- */
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  min-width: 108px;
+  padding: 0px 24px 0px 23px;
+  line-height: 48px;
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+.main-content {
+  max-width: calc(100% - 48px);
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------------header------------- */
+.header.fixed {
+  position: sticky;
+  top: -44px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 52px 0px 8px;
+}
+.nav {
+  margin: auto;
+}
+.nav ul {
+  display: flex;
+  gap: 39px;
+}
+.nav a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.nav li.active a,
+.nav a:hover {
+  color: #2f3a3b;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+  line-height: normal;
+}
+.header .btn-sign-up {
+  min-width: 108px;
+}
+.header .action {
+  display: flex;
+  align-items: center;
+}
+.header .action .sign {
+  margin-right: 24px;
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
 }
