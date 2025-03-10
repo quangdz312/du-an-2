@@ -617,3 +617,84 @@ a {
   top: 374px;
   left: 1060px;
 }
+/* admit */
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+.admit .heading-lv2 {
+  width: 420px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.admit .admit-left .desc {
+  margin-top: 18px;
+  margin-right: 410px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.admit .admit-right .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2ac9bf;
+}
+/* footer */
+.footer .row-top {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.footer .list li:first-child {
+  margin-top: 25px;
+}
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+
+.footer .list .social-icon {
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
+}
